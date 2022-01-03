@@ -1,0 +1,29 @@
+# Site settings
+title: Euro Office
+subtitle: your friendly office experts by Social Group
+email: i.euroffice@gmail.com
+description: Experts in office supply
+baseurl: #"/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
+url: https://www.euroffice.ee/
+author: 
+street_address: Akadeemai tee 15a
+city: Tallinn
+state: Mustamae
+zip_code: 12612 
+country: Estonia
+phone: +372 56828921
+
+# Social settings
+500px_url:
+facebook_url: 
+#github_url:
+#gitlab_url: h
+#googleplus_url: h
+instagram_url: 
+#linkedin_url: 
+#pinterest_url:
+#slack_url:
+#twitter_url: 
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                {% include header.html %}
+                {% include banner.html %}
+                <!-- {% include freeDelivery.html %}
+                {% include payOnline.html %}
+                {% include abtmenu.html %}
+                {% include daymeal.html %}
+                {% include gallery.html %}
+                {% include catering.html %} -->
+                {% include team.html %}
+                {% include contactUs.html %}
+                <!-- <div id="news" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" style="margin-left: auto; margin-right: auto; text-align: center;">Socail Restaurant, Mustamäe</h5>
+                            </div>
+                            <div class="modal-body" style="text-align: center;">
+                                <p>A Premium Indian Restaurant </p>
+                                <p style="color: #fed136;"> by Social Restaurant Group </p>
+                                <p style="color: gray;">Located:</p>
+                                <p> Akadeemia tee 24, Tallinn <br></p>
+                                <a href="https://www.indiancorner.ee/" class="btn btn-primary" role="button">Indian Corner</a>
+              
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                {{ content }}
+
+            </div>
+        </div>
+
+        {% include sidebar.html %}
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
