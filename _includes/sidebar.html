@@ -1,94 +1,83 @@
 <!-- Sidebar -->
-  <div id="sidebar">
-    <div class="inner">
+<div id="sidebar">
+  <div class="inner">
 
-      <!-- Search -->
-        <section id="" class="alt" style="margin: -2.22222em 0 4.44444em -2.22222em; !important">
-          <a href="#" class="image">
-            <img class="logo_img" src="assets/images/eoffice.gif" alt="" />
-          </a>
-        </section> 
+    <!-- Search -->
+      <section id="" class="alt" style="margin: -2.22222em 0 4.44444em -2.22222em; !important">
+        <a href="#" class="image">
+          <img class="logo_img" src="" alt="" />
+        </a>
+      </section> 
 
-      <!-- Menu -->
-        <nav id="menu">
-          <header class="major">
-            <h2>Euroffice</h2>
-          </header>
-          <ul>
-            <li>
-              <span class="opener">Office Supplies</span>
-              <ul>
-                <li><a href="#">Office Machines</a></li>
-                <li><a href="#">Calendar & planner</a></li>
-                <li><a href="#">Mailing & Shipping</a></li>
-              </ul>
-            </li>
+    <!-- Menu -->
+      <nav id="menu">
+        <header class="major">
+          <h2>Indian Corner</h2>
+        </header>
+        <ul>
+          <li><a href="#freeDelivery">Free Delivery</a></li>
+          <li><a href="#payOnline">Pay Online</a></li>
+          <li>
+            <span class="opener">Menu</span>
+            <ul>
+              <li><a href="#abtmenu">About Menu</a></li>
+              <li><a href="#daymeal">Lunch</a></li>
+              <li><a href="#freeDelivery">Delivery/PickUp</a></li>
+              <!-- <li><a href="#curry">Curry</a></li> -->
+            </ul>
+          </li>
+          <li><a href="#catering">Catering</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contactUs">contact Us</a></li>
+        </ul>
+      </nav>
 
-            <li>
-              <span class="opener">Technology</span>
-              <ul>
-                <li><a href="#">Computer & Communication</a></li>
-                <li><a href="#">Printers</a></li>
-                <li><a href="#">Display/Projectors</a></li>
-              </ul>
-           </li>
-            <li><a href="#">Staff Required</a></li>
-            <li><a href="#">Furniture</a></li>
-            <li><a href="#">Electronics</a></li>
-            <li><a href="#">House Keeping & Cleaning</a></li>
-            <li><a href="#catering">Food & Catering</a></li>
-            <li><a href="#">Automobiles</a></li>
-            <li><a href="#">Real-Estate</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contactUs">contact Us</a></li>
-          </ul>
-        </nav>
+    <!-- Section 
+      <section>
+        <header class="major">
+          <h2>Ante interdum</h2>
+        </header>
+        <div class="mini-posts">
+          <article>
+            <a href="#" class="image"><img src="assets/images/pic07.jpg" alt="" /></a>
+            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+          </article>
+          <article>
+            <a href="#" class="image"><img src="assets/images/pic08.jpg" alt="" /></a>
+            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+          </article>
+          <article>
+            <a href="#" class="image"><img src="assets/images/pic09.jpg" alt="" /></a>
+            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+          </article>
+        </div>
+        <ul class="actions">
+          <li><a href="#" class="button">More</a></li>
+        </ul>
+      </section> -->
 
-      <!-- Section 
-        <section>
-          <header class="major">
-            <h2>Ante interdum</h2>
-          </header>
-          <div class="mini-posts">
-            <article>
-              <a href="#" class="image"><img src="assets/images/pic07.jpg" alt="" /></a>
-              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="assets/images/pic08.jpg" alt="" /></a>
-              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="assets/images/pic09.jpg" alt="" /></a>
-              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-            </article>
-          </div>
-          <ul class="actions">
-            <li><a href="#" class="button">More</a></li>
-          </ul>
-        </section> -->
+    <!-- Section -->
+      <section>
+        <header class="major">
+          <h2>Get in touch</h2>
+        </header>
+        <ul class="contact">
+          <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
+          <li class="fa-phone">{{ site.phone }}</li>
+          <li class="fa-home">{{ site.street_address }}<br />
+          {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
+          {{ site.country }}</li>
+        </ul>
+      </section>
 
-      <!-- Section -->
-        <section>
-          <header class="major">
-            <h2>Get in touch</h2>
-          </header>
-          <ul class="contact">
-            <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
-            <li class="fa-phone">{{ site.phone }}</li>
-            <li class="fa-home">{{ site.street_address }}<br />
-            {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
-            {{ site.country }}</li>
-          </ul>
-        </section>
+    <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">&copy; {{ site.title }}{{ 'now' | date: "%Y" }}. All rights reserved. 
+          Web.Dev <a href="" target="_blank">@Silicon DevOps</a>
+          <!-- <div class="section_footer__open__time"><a href="">HH.Mahadev Oü (14429267)</a></div> -->
+          
+      </footer>
 
-      <!-- Footer -->
-        <footer id="footer">
-          <p class="copyright">&copy; {{ site.title }}{{ 'now' | date: "%Y" }}. All rights reserved. 
-            Web.Dev <a href="" target="_blank">@Silicon DevOps</a>
-            <!-- <div class="section_footer__open__time"><a href="">HH.Mahadev Oü (14429267)</a></div> -->
-            
-        </footer>
-
-    </div>
   </div>
+</div>
