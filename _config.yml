@@ -4,7 +4,7 @@ subtitle: Your friendly office experts by Social Group
 email: i.euroffice@gmail.com
 description: Experts in office supply
 baseurl: #"/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
-url: https://www.euroffice.ee/
+url: https://www.euroffice.ee
 author: 
 street_address: Akadeemai tee 15a
 city: Tallinn
@@ -15,11 +15,11 @@ phone: +372 56828921
 
 # Social settings
 500px_url:
-facebook_url: 
+facebook_url: https://www.facebook.com/#
 #github_url:
 #gitlab_url: h
 #googleplus_url: h
-instagram_url: 
+instagram_url: https://instagram.com/#
 #linkedin_url: 
 #pinterest_url:
 #slack_url:
